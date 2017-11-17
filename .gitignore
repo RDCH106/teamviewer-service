@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.idea/
+*.sqlite
+config.json
+tv_config.json
