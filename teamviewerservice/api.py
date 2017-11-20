@@ -54,6 +54,7 @@ class Logout(linkero.Resource):
 ## Actually setup the Api resource routing here
 ##
 def loadAPI():
+    global config
     config = load_config()
     linkero.api.add_resource(StartTV, '/startTV')
     linkero.api.add_resource(Screenshot, '/screenshot')
