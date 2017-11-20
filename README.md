@@ -19,7 +19,7 @@ $ pip install -r requirements.txt
 Execute UDP Commander with:
 
 ``` bash
-$ cd teamviewer-service/tieamviewerservice
+$ cd teamviewer-service/teamviewerservice
 $ python gateway_main.py
 ```
 
