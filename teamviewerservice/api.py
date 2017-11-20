@@ -34,7 +34,7 @@ class StartTV(linkero.Resource):
     def get(self):
         # https://msdn.microsoft.com/en-us/library/windows/desktop/ms684863(v=vs.85).aspx
         DETACHED_PROCESS = 8
-        subprocess.Popen('D:/TOOLS/TeamViewer/TeamViewerPortable/TeamViewer.exe', creationflags=DETACHED_PROCESS)
+        subprocess.Popen(config["tv_path"], creationflags=DETACHED_PROCESS)
         return "OK"
 
 
