@@ -14,7 +14,7 @@ $ pip install -r requirements.txt
 
 ### Service start-up
 
-Execute UDP Commander with:
+Execute TeamViewer service with:
 
 ``` bash
 $ cd teamviewer-service/teamviewerservice
