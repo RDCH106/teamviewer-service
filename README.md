@@ -29,8 +29,20 @@ Error loading config.json!
 Default config.json generated! Try again.
 ```
 
+[**👁️ Check Configuration**](#configuration)
+
 Running again the service will start to work:
 
 ``` bash
 $ python gateway_main.py
 ```
+
+#### Configuration
+
+Create `tv_config.jon` file in `config` with this content:
+
+```
+{"tv_path": "C:/path/to/teamviewer/TeamViewer.exe"}
+```
+
+where `tv_path` is the path to TeamViewer excutable. You can use **TiemViewer portable version without installation** for this purpose.
