@@ -29,7 +29,7 @@ Error loading config.json!
 Default config.json generated! Try again.
 ```
 
-[**👁️ Check Configuration**](#configuration)
+👁️[*Check Configuration*](#configuration)
 
 Running again the service will start to work:
 
