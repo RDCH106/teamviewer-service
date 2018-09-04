@@ -2,6 +2,8 @@
 
 Service to launch TeamViewer Remote Desktop
 
+---------------------
+
 ### Installation
 
 You can install from source with:
@@ -11,6 +13,8 @@ $ git clone https://github.com/RDCH106/teamviewer-service.git --recursive
 $ cd teamviewer-service
 $ pip install -r requirements.txt
 ```
+
+---------------------
 
 ### Service start-up
 
@@ -38,6 +42,8 @@ Running again the service will start to work:
 ``` bash
 $ python gateway_main.py
 ```
+
+---------------------
 
 ### Configuration
 
