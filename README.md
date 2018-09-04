@@ -29,7 +29,9 @@ Error loading config.json!
 Default config.json generated! Try again.
 ```
 
-👁️[*Check Configuration*](#configuration)
+👁️[*Check Configure tv_config.jon*](#configure-tv_configjon)
+
+👁️[*Check Change Linkero adminSecret*](#change-linkero-adminsecret)
 
 Running again the service will start to work:
 
