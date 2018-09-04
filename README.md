@@ -63,3 +63,16 @@ Introduce desired password and push enter. The password hash will be print in th
 
 And replace it by your generated password hash.
 
+#### Change Linkero user
+
+Execute the following python code with `gateway_main.py` running:
+
+```py
+from requests import post
+
+post ('http://localhost:5000/api/users', data={"username":"myuser","password":"mypassword","secret":"myadminSecret"})
+```
+
+where "*http://localhost:5000/api/users*" is the local endpoint, "*myuser*" is the username for the new user, "*mypassword*" is the password for the new user and "*myadminSecret*" is the adminSecret introduced in [Change Linkero *adminSecret*](#change-linkero-adminsecret) section.
+
+If everything is correct, the post will return `<Response [201]` where code `201` indicates the correct creation of the user.
