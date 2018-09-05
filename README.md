@@ -89,6 +89,12 @@ If everything is correct, the post will return `<Response [201]` where code `201
 
 ### Usage
 
-- `startTv`: Launch TeamViewer (login is required)
+- `startTV`: Launch TeamViewer (login is required)
+  + Example: http://localhost:5000/startTV
+    - Return: "OK" if TeamViewer is launched 
 - `screenshot`: Take screenshot (where user ID and password appear) and return it (login is required) 
-- `logout`: Close user session 
+  + Example: http://localhost:5000/screenshot
+    - Return: Screenshot image
+- `logout`: Close user session
+  + Example: http://localhost:5000/logout
+    - Return: "Logout" with 401 code
