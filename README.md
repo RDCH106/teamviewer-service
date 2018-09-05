@@ -84,3 +84,11 @@ post ('http://localhost:5000/api/users', data={"username":"myuser","password":"m
 where "*http://localhost:5000/api/users*" is the local endpoint, "*myuser*" is the username for the new user, "*mypassword*" is the password for the new user and "*myadminSecret*" is the adminSecret introduced in [Change Linkero *adminSecret*](#change-linkero-adminsecret) section.
 
 If everything is correct, the post will return `<Response [201]` where code `201` indicates the correct creation of the user.
+
+---------------------
+
+### Usage
+
+- `startTv`: Launch TeamViewer (login is required)
+- `screenshot`: Take screenshot (where user ID and password appear) and return it (login is required) 
+- `logout`: Close user session 
