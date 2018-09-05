@@ -43,6 +43,8 @@ Running again the service will start to work:
 $ python gateway_main.py
 ```
 
+👁️[*Create Linkero user*](#create-linkero-user)
+
 ---------------------
 
 ### Configuration
