@@ -71,7 +71,7 @@ Introduce desired password and push enter. The password hash will be print in th
 
 And replace it by your generated password hash.
 
-#### Change Linkero user
+#### Create Linkero user
 
 Execute the following python code with `gateway_main.py` running:
 
